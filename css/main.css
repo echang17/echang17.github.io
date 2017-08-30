@@ -43,6 +43,10 @@ ul.posts li {
     list-style: none;
 }
 
+.page-title {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: black;
+}
 .title-blurb {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: #ffffff;
@@ -52,7 +56,7 @@ ul.posts li {
     background-size: cover;
     
 }
-.page-title {
+.blurb {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;
 }

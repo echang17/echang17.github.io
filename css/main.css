@@ -55,7 +55,8 @@ ul.posts li {
     background-image: url("https://static.pexels.com/photos/132037/pexels-photo-132037.jpeg");
     background-size: cover;
     text-align: center;
-    
+    width: 225px;
+    height: 150px;
 }
 .blurb {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;

@@ -52,3 +52,7 @@ ul.posts li {
     background-size: cover;
     
 }
+.page-title {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: black;
+}

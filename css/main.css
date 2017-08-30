@@ -58,7 +58,14 @@ ul.posts li {
     width: 600px;
     height: 400px;
 }
+
 .blurb {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

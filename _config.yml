@@ -1,2 +1,4 @@
 name: Erin Chang
 markdown: kramdown
+
+theme: jekyll-theme-cayman

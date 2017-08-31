@@ -117,3 +117,14 @@ ul.posts li {
 .profile-description p{
     color: black;   
 }
+
+.blog-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.blog-item {
+    margin: 20px;
+}

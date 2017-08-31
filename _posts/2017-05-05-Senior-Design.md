@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nanoparticles for Oligonucleotide and Curcumin Delivery to Breast Cancer Cells
+title: Senior Design
 date: 2017-05-05
 ---
 

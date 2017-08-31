@@ -75,7 +75,26 @@ ul.posts li {
     margin: 20px;
 }
 
-.photo{
+.photo {
     width: 1000px;
     height: 667px;
+}
+
+.profile {
+    
+}
+
+.profile-picture {
+
+}
+
+.vert-photo {
+    width: 250px;
+    height: 333px;
+}
+
+.profile-description {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: black;
+    float: right;
 }

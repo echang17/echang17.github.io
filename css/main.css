@@ -47,6 +47,7 @@ ul.posts li {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;
 }
+
 .main-blurb {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-color: #ffffff;
@@ -57,6 +58,10 @@ ul.posts li {
     text-align: center;
     width: 400px;
     height: 100px;
+}
+
+.main-blurb a {
+    color: #ffffff;
 }
 
 .blurb {

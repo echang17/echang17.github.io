@@ -69,3 +69,8 @@ ul.posts li {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.gallery-item {
+    width: 600px;
+    height: 400px;
+}

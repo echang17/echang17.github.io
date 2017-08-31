@@ -97,15 +97,10 @@ ul.posts li {
     display: inline;
 }
 
-.profile-picture {
-    width: 250px;
-    height: 333px;
-    margin: 10px 10px 10px 10px;
-}
-
 .vert-photo {
     width: 250px;
     height: 333px;
+    margin: 10px 10px 10px 10px;
 }
 
 .profile-container p {

@@ -74,7 +74,12 @@ ul.posts li {
 }
 
 .blurb p{
-    color: black;   
+    color: black;
+    
+}
+
+.blurb a {
+    color: purple;
 }
 
 .gallery {

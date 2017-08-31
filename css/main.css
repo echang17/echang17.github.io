@@ -101,4 +101,5 @@ ul.posts li {
 .profile-description {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;
+    float: right;
 }

@@ -50,13 +50,13 @@ ul.posts li {
 .main-blurb {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-color: #ffffff;
-    padding: 250px 0;
+    padding: 250px 250px 250px 250px;
     margin: 30px;
     background-image: url("https://user-images.githubusercontent.com/16715814/29900770-aa2b5ad8-8da8-11e7-97da-a228cdd5c60b.jpg"); 
     background-size: cover;
     text-align: center;
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 100px;
 }
 
 .blurb {

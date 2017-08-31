@@ -94,7 +94,9 @@ ul.posts li {
 }
 
 .profile-picture {
-
+    width: 250px;
+    height: 333px;
+    margin: 10px 10px 10px 10px;
 }
 
 .vert-photo {

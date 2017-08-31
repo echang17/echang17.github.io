@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: grey;
 }
 a:hover {
     text-decoration: underline;
@@ -27,7 +27,7 @@ p {
     font-size: 1.5em;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 1.4em;
-    color: grey;
+    color: #ffffff;
 }
 footer {
     border-top: 1px solid #d5d5d5;

@@ -69,6 +69,10 @@ ul.posts li {
     color: black;
 }
 
+.blurb p{
+    color: black;   
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;

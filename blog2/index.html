@@ -5,7 +5,7 @@ title: Links
 <h1>{{ page.title }}</h1>
     <ul class="blog2">
     
-      {% for link in site.links %}
-      <li><span>{{ link.date | date_to_string }}</span> » <a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+      {% for post in site.links %}
+      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	    {% endfor %}
     </ul>

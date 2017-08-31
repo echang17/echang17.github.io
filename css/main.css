@@ -74,3 +74,8 @@ ul.posts li {
 .gallery-item {
     margin: 20px;
 }
+
+.photo{
+    width: 320px;
+    height: 212px;
+}

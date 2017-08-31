@@ -93,8 +93,8 @@ ul.posts li {
     height: 667px;
 }
 
-.profile {
-    
+.profile-container {
+    display: inline;
 }
 
 .profile-picture {
@@ -108,13 +108,8 @@ ul.posts li {
     height: 333px;
 }
 
-.profile-description {
+.profile-container p {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    color: black;
-    float: right;
-}
-
-.profile-container p{
     color: black;   
     width: 500px;
 }

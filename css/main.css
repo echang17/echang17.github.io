@@ -112,6 +112,8 @@ ul.posts li {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;   
     width: 500px;
+    float: right;
+    text-aligh: left;
 }
 
 .blog-photos {

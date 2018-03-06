@@ -104,10 +104,11 @@ ul.posts li {
 .profile-container p {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;   
-    float: right;
     text-align: left;
     font-size: 1.5em;
-    vertical-align: top;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
 .blog-photos {

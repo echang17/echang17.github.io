@@ -56,8 +56,8 @@ ul.posts li {
     background-image: url("https://user-images.githubusercontent.com/16715814/29900770-aa2b5ad8-8da8-11e7-97da-a228cdd5c60b.jpg"); 
     background-size: cover;
     text-align: center;
-    width: 400px;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 .main-blurb a {

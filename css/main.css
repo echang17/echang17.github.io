@@ -92,6 +92,7 @@ ul.posts li {
 .profile-container {
     display: inline-block;
     vertical-align: top;
+    position: relative;
 }
 
 .vert-photo {
@@ -103,11 +104,7 @@ ul.posts li {
 .profile-container p {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;   
-    width: 400px;
-    float: right;
-    text-align: left;
-    font-size: 1.5em;
-    vertical-align: top;
+    
 }
 
 .blog-photos {

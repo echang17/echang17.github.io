@@ -106,9 +106,6 @@ ul.posts li {
     color: black;   
     text-align: left;
     font-size: 1.5em;
-    position: absolute;
-    top: 8px;
-    right: 16px;
 }
 
 .blog-photos {

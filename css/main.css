@@ -90,9 +90,11 @@ ul.posts li {
 }
 
 .profile-container {
-    display: inline-block;
+    /*display: inline-block;
     vertical-align: top;
-    position: relative;
+    position: relative;*/
+    display: flex;
+    flex-direction: row;
 }
 
 .vert-photo {
@@ -101,12 +103,12 @@ ul.posts li {
     margin: 10px 10px 10px 10px;
 }
 
-.flex-container {
+/*.flex-container {
     display: flex;
     flex-direction: row;
-}
+}*/
 
-.flex-container p {
+.profile-container p {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: black;   
     text-align: left;

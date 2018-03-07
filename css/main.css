@@ -96,7 +96,7 @@ ul.posts li {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    align-content: space-between;
+    /*align-content: space-between;*/
 }
 
 .vert-photo {

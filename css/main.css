@@ -95,6 +95,8 @@ ul.posts li {
     position: relative;*/
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
+    align-content: space-between;
 }
 
 .vert-photo {

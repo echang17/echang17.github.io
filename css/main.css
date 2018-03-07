@@ -100,7 +100,7 @@ ul.posts li {
 .vert-photo {
     width: 250px;
     height: 333px;
-    margin: 10px 10px 10px 10px;
+    /*margin: 10px 10px 10px 10px;*/
 }
 
 /*.flex-container {
@@ -113,7 +113,7 @@ ul.posts li {
     color: black;   
     text-align: left;
     font-size: 1.5em;
-    left: 16px;
+    /*left: 16px;*/
 }
 
 .blog-photos {

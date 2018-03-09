@@ -90,11 +90,6 @@ ul.posts li {
     box-sizing: border-box;
 }
 
-body {
-    /*margin: 0; this puts everything on the left hand side of the screen with no buffer space */
-    font-family: Arial;
-}
-
 .header {
     text-align: center;
     padding: 32px;

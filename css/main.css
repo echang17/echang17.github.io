@@ -53,6 +53,7 @@ ul.posts li {
     font-color: #ffffff;
     text-align: center;
     position: relative;
+    padding 4px 4px 4px 4px;
 }
 
 .main-blurb a {

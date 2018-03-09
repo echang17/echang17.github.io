@@ -89,6 +89,7 @@ ul.posts li {
 * {
     box-sizing: border-box;
 }
+/*took out double body*/
 
 .header {
     text-align: center;

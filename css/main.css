@@ -229,7 +229,7 @@ ul.posts li {
 }*/
 
 .dropdown {
-    /*float: left;*/
+    float: left; /*changed back*/
     overflow: hidden;
     display: inline; /*new*/
 }
@@ -274,5 +274,5 @@ ul.posts li {
 
 .dropdown:hover .dropdown-content {
     display: block;
-    display: inline;
+    /*display: inline; */
 }

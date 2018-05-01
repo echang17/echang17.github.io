@@ -230,7 +230,7 @@ ul.posts li {
 
 .dropdown {
     /*float: left;*/
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .dropdown .dropbtn {

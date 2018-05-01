@@ -244,7 +244,7 @@ ul.posts li {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: bold; /*new*/
     margin: 0;
-    display: inherit; /*new*/
+    display: inline; /*new*/
 }
 
 /*.navbar a:hover,*/ .dropdown:hover .dropbtn {

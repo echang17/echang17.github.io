@@ -8,6 +8,6 @@ date: 2018-04-24
 
 <div class="blog-photos">
   <figure class="blog-item">
-    <img class="blog-pic" src="echang17.github.io/Cabinet_Erin Chang_04242018.jpg">
+    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/39457915-e1af0f06-4ca5-11e8-9893-51446bfb4515.jpg">
   </figure>
 </div>

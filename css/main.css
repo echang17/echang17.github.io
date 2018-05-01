@@ -229,7 +229,7 @@ ul.posts li {
 }*/
 
 .dropdown {
-    float: left;
+    /*float: left;*/
     overflow: hidden;
 }
 
@@ -237,8 +237,8 @@ ul.posts li {
     font-size: 20px;    
     border: none;
     outline: none;
-    color: white;
-    padding: 14px 16px;
+    color: #A9A9A9;
+    /*padding: 14px 16px;*/
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -260,7 +260,7 @@ ul.posts li {
 .dropdown-content a {
     float: none;
     color: #A9A9A9;
-    padding: 12px 16px;
+    /*padding: 12px 16px;*/
     text-decoration: none;
     display: block;
     text-align: left;

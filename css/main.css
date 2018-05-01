@@ -244,6 +244,7 @@ ul.posts li {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: bold; /*new*/
     margin: 0;
+    float: inherit; /*new*/
 }
 
 /*.navbar a:hover,*/ .dropdown:hover .dropbtn {
@@ -257,7 +258,6 @@ ul.posts li {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    float: inherit; /*new*/
 }
 
 .dropdown-content a {

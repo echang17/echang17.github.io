@@ -230,7 +230,7 @@ ul.posts li {
 
 .dropdown {
     /*float: left;*/
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .dropdown .dropbtn {
@@ -241,7 +241,7 @@ ul.posts li {
     padding: 14px 16px;
     background-color: inherit;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    margin: 0;
+    /*margin: 0;*/
 }
 
 /*.navbar a:hover,*/ .dropdown:hover .dropbtn {
@@ -250,7 +250,7 @@ ul.posts li {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    /*position: absolute;*/
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

@@ -264,7 +264,7 @@ ul.posts li {
     float: none;
     color: #A9A9A9;
     padding: 12px 16px;
-    text-decoration: none;
+    /*text-decoration: none;*/
     display: block;
     text-align: left;
 }

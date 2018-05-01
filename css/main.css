@@ -244,7 +244,7 @@ ul.posts li {
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+/*.navbar a:hover,*/ .dropdown:hover .dropbtn {
     background-color: red;
 }
 

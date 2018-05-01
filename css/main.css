@@ -229,7 +229,7 @@ ul.posts li {
 }*/
 
 .dropdown {
-    float: left; /*changed back*/
+    float: none; /* new= before: left*/
     overflow: hidden;
     display: inline; /*new*/
 }

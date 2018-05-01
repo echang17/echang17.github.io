@@ -234,13 +234,13 @@ ul.posts li {
 }
 
 .dropdown .dropbtn {
-    font-size: 20px;    
+    font-size: 16px;    
     border: none;
     outline: none;
     color: #A9A9A9;
-    /*padding: 14px 16px;*/
+    padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     margin: 0;
 }
 

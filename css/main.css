@@ -235,7 +235,7 @@ ul.posts li {
 }
 
 .dropdown .dropbtn {
-    font-size: 20px;  /*new*/  
+    font-size: 1.5em;  /*new*/  
     border: none;
     outline: none;
     color: #A9A9A9;

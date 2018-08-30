@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Senior Design
+title: Senior Design Thesis Project
 date: 2017-05-05
 ---
 

@@ -65,6 +65,10 @@ ul.posts li {
     color: #ffffff;
 }
 
+.main-blurb a:hover{
+    text-decoration: none;
+} /*for homepage text in boxes only*/
+
 .main-blurb p{
     color: #ffffff;
 }

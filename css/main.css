@@ -57,6 +57,10 @@ ul.posts li {
     padding: 4px 4px 4px 4px;
 }
 
+.main-blurb img.opacity:hover{
+    opacity: 0.5;
+} /*for homepage selection only*/
+
 .main-blurb a {
     color: #ffffff;
 }

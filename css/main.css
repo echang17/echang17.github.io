@@ -178,7 +178,7 @@ ul.posts li {
     padding: 4px 4px 4px 4px;
 }
 
-.main-blurb img.opacity:hover{
+/*.main-blurb img.opacity:hover{
     opacity: 0.5;
 } /*for homepage selection only*/
 
@@ -186,7 +186,7 @@ ul.posts li {
     color: #ffffff;
 }
 
-.main-blurb a:hover{
+/*.main-blurb a:hover{
     text-decoration: none;
 } /*for homepage text in boxes only*/
 

@@ -120,16 +120,19 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-/*nav ul, footer ul {
+/*FOOTER*/
+footer ul {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
-}try removing this first from old nav bar*/
+}
+/*FOOTER ends here*/
+
 a {
     text-decoration: none;
     color: #A9A9A9;

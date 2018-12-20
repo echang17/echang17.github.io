@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav>
+	<!--	<nav>
     		<ul>
 			<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
@@ -14,7 +14,7 @@
 			<li><div class="dropdown">
 				<button class="dropbtn">Sports Photography
 					<!--<i class="fa fa-caret-down">-->
-				</button>
+	<!--			</button>
 				<div class="dropdown-content">
 					<a href="/sportsphoto">Personal Shots</a>
 					<a href="/ISI">Stanford Athletics Media</a>
@@ -23,11 +23,30 @@
 				</div>
 			</li>
 				<!--<a href="/sportsphoto">Sports Photography</a>-->
-        		<li><a href="/science">Science</a></li>
+        <!--		<li><a href="/science">Science</a></li>
 			<li><a href="/projects">Projects</a></li>
 			<!--<li><a href="/links">Links</a></li>-->
-    		</ul>
-		</nav>
+    	<!--	</ul> 
+		</nav> -->
+		
+<!-- trying responsive topnav w/dropdown-->
+		<div class="topnav" id="myTopnav">
+  			<a href="#home" class="active">Home</a>
+  			<a href="#news">News</a>
+  			<a href="#contact">Contact</a>
+  			<div class="dropdown">
+    				<button class="dropbtn">Dropdown 
+      					<i class="fa fa-caret-down"></i>
+    				</button>
+    				<div class="dropdown-content">
+      					<a href="#">Link 1</a>
+      					<a href="#">Link 2</a>
+      					<a href="#">Link 3</a>
+    				</div>
+  			</div> 
+  			<a href="#about">About</a>
+			</div>
+<!--end here-->		
 		<div class="container">
     
     		{{ content }}

@@ -118,7 +118,7 @@
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 90%; /*make more use of the width*/
 }
 /*FOOTER*/
 footer ul {

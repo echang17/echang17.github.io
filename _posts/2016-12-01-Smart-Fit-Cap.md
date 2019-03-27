@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Smart-Fit Cap
+title: Football Helmet Smart-Fit Cap
 date: 2016-12-01
 ---
 

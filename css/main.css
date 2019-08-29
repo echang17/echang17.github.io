@@ -8,6 +8,7 @@
   left: 0; /*nav bar extends all the way to the left of the page*/
   width: 100%; /*nav bar extend the entire width of the screen*/
   padding: 10px; /*Pad the nav bar a little on all sides*/
+  z-index: 2;  /*put the nav bar over all page text/images. body z-index is 1 (lower)*/
 }
 
 /* Style the links inside the navigation bar */
@@ -91,6 +92,7 @@
 body {
     margin: 60px 60px 60px 60px; /*changed margin to even around all sides*/
     /*width: 90%; make more use of the width*/
+    z-index: 1; /*put body behind nav bar*/
 }
 /*FOOTER*/
 footer ul {

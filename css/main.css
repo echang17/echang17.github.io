@@ -62,8 +62,8 @@
 /*NAVIGATION BAR ends here*/
 
 body {
-    margin: 60px auto;
-    width: 90%; /*make more use of the width*/
+    margin: 60px 60px 60px 60px; /*changed margin to even around all sides*/
+    /*width: 90%; make more use of the width*/
 }
 /*FOOTER*/
 footer ul {

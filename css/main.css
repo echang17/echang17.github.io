@@ -296,3 +296,25 @@ ul.posts li {
     right: 16px;
 }
 
+/*Contact form*/
+input[type=text] {
+  width: 100%; /*width of text fields*/
+  padding: 12px 10px; /*padding text inside text field*/
+  margin: 8px 0; /*space the field titles and text fields*/
+  box-sizing: border-box; /*small border around text fields*/
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #A692DC; /*purple send box*/
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #74669a; /*darker purple for hover*/
+}

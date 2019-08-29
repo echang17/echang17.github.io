@@ -118,6 +118,7 @@ ul.posts li {
 .page-title {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: black;
+    padding: 5px; /*separate the title from the nav bar a little bit*/
 }
 
 .main-blurb {

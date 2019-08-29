@@ -3,6 +3,11 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+  position: fixed; /*fix nav bar at top of page even when scrolling*/
+  top: 0; /*no space between top of page and nav bar*/
+  left: 0; /*nav bar extends all the way to the left of the page*/
+  width: 100%; /*nav bar extend the entire width of the screen*/
+  padding: 10px; /*Pad the nav bar a little on all sides*/
 }
 
 /* Style the links inside the navigation bar */

@@ -7,7 +7,7 @@ title: Contact
 </div>
 <h2>Send me an email here:</h2>
 
-<form>
+<!--simple form pre-google form <form>
   <a>Name:</a><br>
     <input type="text" name="name" placeholder="Your First and Last Name"><br>
   <a>Email:</a><br>
@@ -15,4 +15,25 @@ title: Contact
   <a>Message:</a><br>
     <input type="text" name="message" placeholder="Let's chat about..."><br>
   <input type="submit" value="Send">
+</form>-->
+
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdC1ur-VL3ElpY-7bbCV0UpECL2woM6ox-pzIZdXVW3Bb1ziQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  <a>Name:</a><br>
+    <input type="text" name="entry.36630395" id="entry.36630395" placeholder="Your First and Last Name"><br>
+  <a>Email:</a><br>
+    <input type="text" name="entry.1515886179" id="entry.1515886179" placeholder="How can I reach you?">
+  <a>Message:</a><br>
+    <input type="text" name="entry.44225378" id="entry.44225378" placeholder="Let's chat about...">
+  <input type="submit" value="Submit">
 </form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>

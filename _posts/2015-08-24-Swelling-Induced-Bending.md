@@ -11,7 +11,7 @@ This project allowed me to get creative in building a setup that could suspend t
 
 <div class="blog-photos">
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/64068880-9ba0aa00-cbf3-11e9-8a4f-b9be5328c6cd.jpg">
+    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/64069379-597c6600-cbfd-11e9-8ab1-f522d4b369d4.jpg">
   </figure>
 </div>
 

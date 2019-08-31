@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Football Helmet Smart-Fit Cap
-date: 2016-12-01
+date: 2016-12-12
 ---
 
 Over 30% of football players have sustained at least one concussion prior to the end of high school and over one fifth of concussions sustained are recurrent. Protection and safety are extremely important for youth athletes, whose brains are still developing and especially suseptible to harm. BU recently published a new <a href="http://jamanetwork.com/journals/jama/article-abstract/2645104">study</a> on Chronic Traumatic Encephalophy (CTE), reporting that 99% percent of NFL players whose brains were donated to their research had CTE. 

@@ -326,6 +326,7 @@ input[type=text] {
   padding: 12px 10px; /*padding text inside text field*/
   margin: 8px 0; /*space the field titles and text fields*/
   box-sizing: border-box; /*small border around text fields*/
+  border-color: black; /*back around text boxes*/
 }
 
 input[type=submit] {

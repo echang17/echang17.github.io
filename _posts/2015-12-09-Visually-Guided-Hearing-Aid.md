@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visually-Guided Hearing Aid
-date: 2015-12-01
+date: 2015-12-09
 ---
 
 The Cocktail Party Effect is a cool phenomenon that allows us to distinguish between sounds when we find ourselves in a noisy environment. Unfortunately, when an individual suffers from hearing loss, they lose that ability. Hearing aids can be beneficial in amplifying sound to compensate for damage in the ears, but because they amplify all sound signals, these devices often lack the means to renew the individual's ability to differentiate between signals.

@@ -3,7 +3,7 @@ layout: post
 title: Swelling-Induced Bending
 date: 2015-08-24
 ---
-In many natural instances, fluid interactions have been associated with swelling-induced shape changes of biological structures, such as wrinkling skin or growing leaves. One specific example is the flowering process of the <a href="https://www.youtube.com/watch?v=nWasXjMsIwY">Baobab</a> tree, where stored water buildup in closed flowers induces swelling on the inner surface of the petals. The swelling eventually reaches a maximum point, forcing the petals to peel back and expose the stamens and pistils.
+In many natural instances, fluid interactions have been associated with swelling-induced shape changes of biological structures, such as wrinkling skin or growing leaves. One specific example is the flowering process of the <a href="https://www.youtube.com/watch?v=SA1QfuVluR0">Baobab</a> tree, where stored water buildup in closed flowers induces swelling on the inner surface of the petals. The swelling eventually reaches a maximum point, forcing the petals to peel back and expose the stamens and pistils.
 
 Drawing inspiration from these biological phenomena, I designed experiments to examine the swelling and bending mechanics of closed-beam silicone elastomers of different geometries and materials. By studying these dynamic shape changes, we can optimize applications of these predictable, controllable, and reversible materials in other engineering contexts such as soft robotic arms and mechanical sensors.
 

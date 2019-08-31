@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rett Syndrome Hand Monitor
-date: 2015-05-01
+date: 2015-05
 ---
 
 Rett Syndrome is a neurodevelopmental disorder affecting normal developmental behaviors in 1 in every 10,000 females born. The symptoms are often confused with autism, as the impaired brain function can often result in difficulties with speaking, learning, and movement. While this is only a short list of symptoms, the hallmark symptom of Rett Syndrome is hand stereotypies, or constant and repetitive hand movements.  

@@ -360,3 +360,6 @@ input[type=submit]:hover {
     padding-left: 10px;
     padding-right: 10px;
 }
+.info-wrapper-title a{
+    color: black;
+}

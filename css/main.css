@@ -349,15 +349,14 @@ input[type=submit]:hover {
 .info-wrapper {
     font-style: italic;
     color: #808080;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .info-wrapper-title {
     font-size: 2em;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
 }

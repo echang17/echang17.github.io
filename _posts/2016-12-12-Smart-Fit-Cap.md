@@ -13,18 +13,18 @@ The device was built on Arduino using Force Sensitive Resistor (FSR) technology 
 
 <div class="blog-photos">
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909148-69573d5c-8dd9-11e7-9fdb-c7c05e8aa97b.png">
+    <img class="blog-pic" src="/projects/smartfitcap1.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909151-6bd1abc6-8dd9-11e7-90e7-581c18b6b711.png">
+    <img class="blog-pic" src="/projects/smartfitcap2.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909152-6df49472-8dd9-11e7-9a73-e1633f000aed.png">
+    <img class="blog-pic" src="/projects/smartfitcap3.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909157-6fb5a102-8dd9-11e7-9a15-b73a8593d851.png">
+    <img class="blog-pic" src="/projects/smartfitcap4.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909158-7154ccd6-8dd9-11e7-9b07-67e5e643bd3a.png">
+    <img class="blog-pic" src="/projects/smartfitcap5.png">
   </figure>
 </div>

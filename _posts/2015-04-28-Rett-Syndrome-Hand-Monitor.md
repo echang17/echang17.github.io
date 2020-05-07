@@ -12,10 +12,10 @@ The device was built using Arduino and reads positional data using an accelerome
 
 <div class="blog-photos">
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29907751-30a9242c-8dd2-11e7-93db-dad10de47bc9.png">
+    <img class="blog-pic" src="/projects/handmonitor1.jpg">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29907755-345e74f0-8dd2-11e7-9693-518bea518103.png">
+    <img class="blog-pic" src="/projects/handmonitor2.jpg">
     </figure>
   </div>
   

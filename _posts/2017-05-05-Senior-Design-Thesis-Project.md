@@ -14,12 +14,12 @@ We used calcium phosphate nanoparticles to deliver siRNA and lipid polymer hybri
 
 <div class="blog-photos">
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909845-8cdf6f80-8ddc-11e7-84c2-dc4b1635c85e.png">
+    <img class="blog-pic" src="/projects/nanoparticles1.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909851-8fb2b172-8ddc-11e7-8e58-8ea0c463df0e.png">
+    <img class="blog-pic" src="/projects/nanoparticles2.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29909852-8fcbf63c-8ddc-11e7-9f9b-72bcf14716a4.png">
+    <img class="blog-pic" src="/projects/nanoparticles3.png">
   </figure>
 </div>

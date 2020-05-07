@@ -12,9 +12,9 @@ The device uses an electrooculogram to direct movement of a microphone encased i
 
 <div class="blog-photos">
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29908282-76f5b1cc-8dd5-11e7-90a1-1e420a6e132a.png">
+    <img class="blog-pic" src="/projects/hearingaid1.png">
   </figure>
   <figure class="blog-item">
-    <img class="blog-pic" src="https://user-images.githubusercontent.com/16715814/29908394-f2e4002c-8dd5-11e7-8e76-922dc6b4e19f.png">
+    <img class="blog-pic" src="/projects/hearingaid2.png">
     </figure>
   </div>

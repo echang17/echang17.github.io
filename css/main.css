@@ -70,7 +70,7 @@ body {
 footer {
     border-top: 1px solid #d5d5d5; /*grey bar*/
     font-size: .7em;
-    font-color: #d5d5d5; /*grey to match bar*/
+    color: #d5d5d5; /*grey to match bar*/
     
 }
 /*FOOTER ends here*/

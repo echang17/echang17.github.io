@@ -1,4 +1,9 @@
 /*NAVIGATION BAR*/
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -95,6 +100,11 @@ body {
     z-index: 1; /*put body behind nav bar*/
 }
 /*FOOTER*/
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+/* old footer code?
 footer ul {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 0px;
@@ -104,7 +114,7 @@ footer ul {
 footer ul li {
     display: inline;
     margin-right: 20px;
-}
+}*/
 /*FOOTER ends here*/
 
 a {
@@ -123,10 +133,6 @@ p {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     line-height: 1.4em;
     color: black;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts { 
@@ -198,11 +204,6 @@ ul.posts li {
 
 }
 /*took out double body*/
-
-.header {
-    text-align: center;
-    padding: 32px;
-}
 
 .row {
     display: flex;

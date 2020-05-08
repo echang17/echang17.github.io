@@ -70,9 +70,11 @@ body {
 footer {
     border-top: 1px solid #d5d5d5; /*grey bar*/
     font-size: .7em;
-    color: #d5d5d5; /*grey to match bar*/
-    
 }
+footer p {
+     color: #d5d5d5; /*grey to match bar*/
+}
+
 /*FOOTER ends here*/
 
 a {

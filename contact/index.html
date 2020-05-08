@@ -7,29 +7,31 @@ title: Contact
 </div>
 <h2>Questions, interested in working together, or just want to chat? Send me an email here:</h2>
 
-<!--simple form pre-google form <form>
-  <a>Name:</a><br>
-    <input type="text" name="name" placeholder="Your First and Last Name"><br>
-  <a>Email:</a><br>
-    <input type="text" name="email" placeholder="How can I reach you?"><br>
-  <a>Message:</a><br>
-    <input type="text" name="message" placeholder="Let's chat about..."><br>
-  <input type="submit" value="Send">
-</form>-->
-
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdC1ur-VL3ElpY-7bbCV0UpECL2woM6ox-pzIZdXVW3Bb1ziQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  <br>
-  <a>Name:</a><br>
-    <!--<input type="text" name="entry.36630395" id="entry.36630395"><br>-->
-    <textarea name="entry.36630395" rows="10" columns="30" id="entry.36630395" style="height: 40px; margin: 8px 0px; width: 100%; box-sizing:border-box; border-color:black; padding:12px 10px;"></textarea>
-  <a>Email:</a><br>
-    <!--<input type="text" name="entry.1515886179" id="entry.1515886179">-->
-    <textarea name="entry.1515886179" rows="10" columns="30" id="entry.1515886179" style="height: 40px; margin: 8px 0px; width: 100%; box-sizing:border-box; border-color:black; padding:12px 10px;"></textarea>
-  <a>Message:</a><br>
-    <!--<input type="text" name="entry.44225378" id="entry.44225378" style="height:200px">-->
-    <textarea name="entry.44225378" rows="10" cols="30" id="entry.44225378" style="height: 200px; margin: 8px 0px; width: 100%; box-sizing:border-box; border-color:black; padding:12px 10px;"></textarea>
-  <input type="submit" value="Send">
-</form>
+<div class="blurb">
+  <!-- form one side, photo other side -->
+  <div class="row">
+    <div class="column">
+      <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdC1ur-VL3ElpY-7bbCV0UpECL2woM6ox-pzIZdXVW3Bb1ziQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <br>
+        <a>Name:</a><br>
+          <!--<input type="text" name="entry.36630395" id="entry.36630395"><br>-->
+          <textarea name="entry.36630395" rows="10" columns="30" id="entry.36630395" style="height: 40px; margin: 8px 0px; width: 50%; box-sizing:border-box; border-color:black; padding:12px 10px;"></textarea>
+        <br>
+        <a>Email:</a><br>
+          <!--<input type="text" name="entry.1515886179" id="entry.1515886179">-->
+          <textarea name="entry.1515886179" rows="10" columns="30" id="entry.1515886179" style="height: 40px; margin: 8px 0px; width: 50%; box-sizing:border-box; border-color:black; padding:12px 10px;"></textarea>
+        <br>
+        <a>Message:</a><br>
+          <!--<input type="text" name="entry.44225378" id="entry.44225378" style="height:200px">-->
+          <textarea name="entry.44225378" rows="10" cols="30" id="entry.44225378" style="height: 200px; margin: 8px 0px; width: 50%; box-sizing:border-box; border-color:black; padding:12px 10px;"></textarea>
+        <br>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+    <div class="column">
+      <img src="">
+    </div>
+  </div>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 

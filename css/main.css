@@ -354,10 +354,11 @@ input[type=submit]:hover {
 .close {
     color: white;
     position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
+    top: 95px; /*bring it down from under the banner*/
+    right: 65px;/*bring it into the upper righthand corner of the image*/
+    font-size: 50px;
     font-weight: bold;
+    z-index: 1; /*bring it in front of the image*/
 }
 
 .close:hover, 

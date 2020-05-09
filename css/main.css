@@ -324,3 +324,94 @@ input[type=submit]:hover {
 .info-wrapper-title a{
     color: black;
 }
+
+/*Modal Lightbox*/
+/*background*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; /*pad the top of the image when enlarged*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/*content*/
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/*close button*/
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, 
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+} /*when hovering over images pre-lightbox*/
+
+/*next and previous buttons*/
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease; /*speed and fluidity of button appearance*/
+    border-radius: 0 3px 3px 0; /*slightly rounded edges*/
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0; /*move next button to the right*/
+    border-radius: 3px 0 0 3px; /*round the opposite edges from left button for symmetry*/
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /*button background appears slightly dark when hovering on button*/
+}
+
+/*other modal light box items*/
+.img.hover-shadow {
+    transistion: 0.3s
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*end modal light box*/
+    
+
+

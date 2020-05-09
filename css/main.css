@@ -413,19 +413,6 @@ input[type=submit]:hover {
 }
 
 /*other modal light box items*/
-.img { /*added*/
-    margin-bottom: -4px;
-}
-
-.demo { /*added*/
-    opacity: 0.6;
-}
-
-.active,
-.demo:hover { /*added*/
-    opacity: 1;
-}
-
 .img.hover-shadow {
     transistion: 0.3s;
 }

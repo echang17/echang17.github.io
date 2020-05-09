@@ -374,7 +374,7 @@ input[type=submit]:hover {
 
 .mySlides {
     max-height: 100%;
-    max-width: 100%
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;

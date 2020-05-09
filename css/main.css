@@ -370,6 +370,7 @@ input[type=submit]:hover {
 
 .mySlides {
     display: none;
+    background-color: black;
 }
 
 .mySlides img {

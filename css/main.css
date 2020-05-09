@@ -173,7 +173,7 @@ ul.posts li {
 
 /* Create four equal columns that sits next to each other */
 .column {
-    /*flex: 25%;*/ /*only need 2 columns, max-width below takes care of that*/
+    flex: 25%; 
     max-width: 50%;
     padding: 0 4px;
 }

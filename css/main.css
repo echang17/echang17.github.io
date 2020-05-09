@@ -372,7 +372,7 @@ input[type=submit]:hover {
     display: none;
 }
 
-.mySlides {
+.mySlides img {
     max-height: 100%;
     max-width: 100%;
     display: block;

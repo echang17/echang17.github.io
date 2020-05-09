@@ -372,6 +372,14 @@ input[type=submit]:hover {
     display: none;
 }
 
+.mySlides {
+    max-height: 100%;
+    max-width: 100%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .cursor {
     cursor: pointer;
 } /*when hovering over images pre-lightbox*/

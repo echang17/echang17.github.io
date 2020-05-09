@@ -390,7 +390,7 @@ input[type=submit]:hover {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 50vh; /*stay constant with each image*/
     width: auto;
     padding: 16px;
     margin-top: -50px;

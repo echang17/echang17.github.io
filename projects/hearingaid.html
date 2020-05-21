@@ -3,25 +3,36 @@ layout: default
 title: Visually-Guided Hearing Aid
 ---
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
 
 <div class="page-title">
 	<h1>Visually-Guided Hearing Aid</h1>
 </div>
 
-<p>The Cocktail Party Effect is a cool phenomenon that allows us to distinguish between sounds when we find ourselves in a noisy environment. Unfortunately, when an individual suffers from hearing loss, they lose that ability. Hearing aids can be beneficial in amplifying sound to compensate for damage in the ears, but because they amplify all sound signals, these devices often lack the means to renew the individual's ability to differentiate between signals.</p>
-<p></p>
+<div class="blurb">
+  <button onclick="goBack()">Back</button>
 
-<p>We designed a proof-of-concept for a new hearing aid that allows for the individual to focus on a specific signal based on their eye gaze. The device will amplify only the sound in the direction in which the wearer is looking to mimic the cocktail party effect in individuals with hearing loss.</p>
-<p></p>
+  <p>The Cocktail Party Effect is a cool phenomenon that allows us to distinguish between sounds when we find ourselves in a noisy environment. Unfortunately, when an individual suffers from hearing loss, they lose that ability. Hearing aids can be beneficial in amplifying sound to compensate for damage in the ears, but because they amplify all sound signals, these devices often lack the means to renew the individual's ability to differentiate between signals.</p>
+  <p></p>
 
-<p>The device uses an electrooculogram to direct movement of a microphone encased in a parabolic satellite. It is built on Arduino with a stepper motor, in combination with an oscilloscope and DAQ board controlled by a LabView program.</p>
-<p></p>
+  <p>We designed a proof-of-concept for a new hearing aid that allows for the individual to focus on a specific signal based on their eye gaze. The device will amplify only the sound in the direction in which the wearer is looking to mimic the cocktail party effect in individuals with hearing loss.</p>
+  <p></p>
 
-<div class="blog-photos">
-  <figure class="blog-item">
-    <img class="blog-pic" src="/projects/hearingaid1.png">
-  </figure>
-  <figure class="blog-item">
-    <img class="blog-pic" src="/projects/hearingaid2.png">
+  <p>The device uses an electrooculogram to direct movement of a microphone encased in a parabolic satellite. It is built on Arduino with a stepper motor, in combination with an oscilloscope and DAQ board controlled by a LabView program.</p>
+  <p></p>
+
+  <div class="blog-photos">
+    <figure class="blog-item">
+      <img class="blog-pic" src="/projects/hearingaid1.png">
+    </figure>
+    <figure class="blog-item">
+      <img class="blog-pic" src="/projects/hearingaid2.png">
     </figure>
   </div>
+
+  <button onclick="goBack()">Back</button>
+</div>

@@ -119,17 +119,9 @@ ul.posts li {
     padding: 4px 4px 4px 4px;
 }
 
-/*.main-blurb img.opacity:hover{
-    opacity: 0.5;
-} /*for homepage selection only*/
-
 .main-blurb a {
     color: #ffffff;
 }
-
-/*.main-blurb a:hover{
-    text-decoration: none;
-} /*for homepage text in boxes only*/
 
 .main-blurb p{
     color: #ffffff;
@@ -204,15 +196,17 @@ ul.posts li {
     height: 667px;
 }
 
-.profile-container {
-    /*display: inline-block;
+
+/*.profile-container {
+    display: inline-block;
     vertical-align: top;
-    position: relative;*/
+    position: relative; was commented out
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    /*align-content: space-between;*/
+    align-content: space-between; was commented out
 }
+*/
 
 .vert-photo { /*currently only used for about page*/
     width: 75%;

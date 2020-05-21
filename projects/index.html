@@ -2,12 +2,77 @@
 layout: default
 title: Engineering and Design Projects
 ---
+<!--prior code for blog post layout
 <div class="page-title">    
 	<h1>{{ page.title }}</h1>
 </div>
-    <ul class="posts">
+
+<ul class="posts">
     
       {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	    {% endfor %}
-	  </ul>
+	  </ul> -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="page-title">
+	<h1>Engineering and Design Projects</h1>
+</div>
+<div class="gallery">
+  <!--Senior Design-->
+<div class="main-blurb">
+	<!--using the size of this image as the default for all of the icons here-->
+	<a href="/sportsphoto/action"><img src="/nanoparticles2.png" style="object-fit:cover;height:287px; width:400px" class="hover-shadow cursor"></a>
+	<div class="info-wrapper-title">
+		<a href="/sportsphoto/action">
+			<span>Action</span>
+		</a></div>
+	<div class="info-wrapper"><span>in-game work</span></div>
+</div>
+	
+  <!--Football Helmet-->
+<div class="main-blurb">
+	<!--rotate image?-->
+	<a href="/sportsphoto/marketing"><img src="/smartfitcap1.png" style="object-fit:cover;height:287px; width:400px" class="hover-shadow cursor"></a>
+	<div class="info-wrapper-title">
+		<a href="/sportsphoto/marketing">
+			<span>Marketing</span>
+		</a></div>
+	<div class="info-wrapper"><span>in-studio work</span></div>
+</div>
+	
+  <!--Hearing Aid-->
+<div class="main-blurb">
+	<!--rotate image?-->
+	<a href="/sportsphoto/inpress"><img src="/hearingaid2.png" style="object-fit:cover;height:287px; width:400px" class="hover-shadow cursor"></a>
+	<div class="info-wrapper-title">
+		<a href="/sportsphoto/inpress">
+			<span>Press</span>
+		</a></div>
+	<div class="info-wrapper"><span>published in press</span></div>
+</div>
+ 
+  <!--Bending-->
+<div class="main-blurb">
+        <!--rotate image-->
+	<a href="/sportsphoto/headshots"><img src="/bending1.jpg" style="object-fit:cover;height:287px; width:400px" class="hover-shadow cursor"></a>
+	<div class="info-wrapper-title">
+		<a href="/sportsphoto/headshots">
+			<span>Headshots</span>
+		</a></div>
+	<div class="info-wrapper"><span>team rosters</span></div>
+</div>
+	
+  <!--Hand Monitor-->
+<div class="main-blurb">
+	<!--rotate image-->
+        <a href="/sportsphoto/headshots"><img src="/handmonitor1.png" style="object-fit:cover;height:287px; width:400px" class="hover-shadow cursor"></a>
+	<div class="info-wrapper-title">
+		<a href="/sportsphoto/headshots">
+			<span>Headshots</span>
+		</a></div>
+	<div class="info-wrapper"><span>team rosters</span></div>
+</div>
+
+</div>

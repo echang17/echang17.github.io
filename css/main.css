@@ -214,10 +214,8 @@ ul.posts li {
     /*align-content: space-between;*/
 }
 
-.vert-photo {
-    width: 250px;
-    height: 333px;
-    /*margin: 10px 10px 10px 10px;*/
+.vert-photo { /*currently only used for about page*/
+    width: 75%;
 }
 
 /*.flex-container {

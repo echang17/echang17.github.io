@@ -10,7 +10,7 @@ title: Contact
 <div class="blurb">
   <!-- form one side, photo other side -->
   <div class="row">
-    <div class="column">
+    <div class="column" style="margin:auto"> <!--no photo yet, so keep it centered for now-->
       <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdC1ur-VL3ElpY-7bbCV0UpECL2woM6ox-pzIZdXVW3Bb1ziQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
         <br>
         <a>Name:</a><br>
@@ -28,9 +28,9 @@ title: Contact
         <input type="submit" value="Send">
       </form>
     </div>
-    <div class="column">
+    <!-- to be used if addig a photo <div class="column">
       <img src="">
-    </div>
+    </div>-->
   </div>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>

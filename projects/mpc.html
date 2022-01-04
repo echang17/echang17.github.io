@@ -1,0 +1,38 @@
+---
+layout: default
+title: Windy Quadcopter Flight
+---
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
+
+<div class="page-title">
+  <h1>Windy Quadcopter Flight</h1>
+</div>
+
+<div class="blurb">
+  <button onclick="goBack()">Back</button>
+  <p>As drone usage becomes more prevalent for both leisure and commercial applications, quadcopters require mobilty and robustness during flight in natural environments. One commonly faced disturbance in natural environments is wind, thus we designed a high-level model predictive controller to adapt and reject various wind models during flight trajectories. </p>
+  <p></p>
+
+  <p>In Python, we modeled the system dynamics as a state vector of positions and velocities and embedded contraints to ensure smooth translational and rotational flight speeds and thruster forces. We then defined a constrained finite time optimal control problem using a linear quadratic regulator and tracking a terminal reference state. Using a simple stabilizing controller determined by solving the discrete Algebraic Riccati equation, we finally designed a model predictive controller with guaranteed terminal set invariance and persistent feasibility.</p>
+  <p></p>
+
+  <p>Tested in simulation, our controller could successfully reach the terminal set in 5 seconds without disturbance. We further evaluated the robustness under three simulated wind conditions: a steady breeze (constant signal), a short gust (square wave), and a erratic wind condition (gaussian noise), showing that these disturbances could be rejected during flight times of 5 seconds. </p>
+  <p></p>
+  
+  <div class="blog-photos">
+    <figure class="blog-item">
+      <img class="blog-pic" src="/projects/mpc1.png">
+    </figure>
+    <figure class="blog-item">
+        <img class="blog-pic" src="/projects/mpc2.png">
+      </figure>
+  </div>
+  <button onclick="goBack()">Back</button>
+  <p></p>
+</div>
+

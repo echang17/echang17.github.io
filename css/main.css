@@ -368,6 +368,8 @@ input[type=submit]:hover {
 .mySlides img {
     max-height: 100%;
     max-width: 100%;
+    width:80vmin; /*added to prevent lightbox stretching wit changing screen size*/
+    height:80vmin;
     display: block;
     margin-left: auto;
     margin-right: auto;

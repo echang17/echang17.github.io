@@ -410,7 +410,7 @@ input[type=submit]:hover {
 
 /*other modal light box items*/
 .img.hover-shadow {
-    transistion: 0.3s;
+    transition: 0.3s;
 }
 
 .hover-shadow:hover {

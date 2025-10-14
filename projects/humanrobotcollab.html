@@ -16,26 +16,34 @@ function goBack() {
 <div class="blurb">
   <button class="custom-button" onclick="goBack()">Back</button>
 
-  <p>[background]</p>
+  <h2><u>Background</u></h2>
+  <p>Robots capable of grasping and manipulation have become commonplace in environments like warehouses and other workplaces, and are even making their way into homes. In these spaces, humans coexist with robots, either working with or alongside them. While teams of humans can rely on verbal communication between the operators to accomplish lifting and maneuvering tasks, robotic agents thus far lack the cognition required to similarly interact with a human operator during such tasks. </p>
   <p></p>
 
-  <p>[contributions]</p>
+  <h2><u>Overview</u></h2>
+  <p>We aimed to program a Sawyer robot arm to work cooperatively with a human operator to lift and maneuver a large, flat, rectangular object (such as a table top). In order to achieve productivity and maintain safety, the robot must understand the human's intentions during their shared task and react appropriately to it. Enabling safe human-robot interactions that can both increase productivity and minimize risk of workplace injury to human operators will be critical to future developments in industrial automation. Work from this project can be applied to fields like industrial manufacturing or distribution centers, where humans and robots may work in the same space.</p>
   <p></p>
 
-  <p>[methods]</p>
+  <h2><u>Methods</u></h2>
+  <p>We used the Sawyer hardware from Rethink Robots and outfitted the end effector with a spatula gripper for simplicity. The system we designed comprises 2 components: a sensing component and a planning & actuation component. In the sensing component, we utilized AR tag-based computer vision to sense the object, its dimensions, and its orienation from Sawyer's head-mounted camera. The planning & actuation component utilized a feedback controller that calculated the Jacobian of the robot arm with respect to error of the intended end effector position.</p>
+  <p></p>
+  
+  <h2><u>Skills</u></h2>
+  <p>ROS, Controller Design, Computer Vision</p>
   <p></p>
 
-  <p>[reflection]</p>
+  <h2><u>Reflection</u></h2>
+  <p>Over 15 weeks, this project was completed as part of the Introduction to Robotics course. Embedding ROS nodes that performed computer vision, calculated object center of gravity, path planning, and feedback control was a challenge, and while the resulting system functioned as expected, we made tradeoffs during the design process that limited the system's robustness. Using Sawyer's head-mounted camera reduced the complexity of additional physical components, but limited visual resolution and could be occluded by the robot's own arm. The rectangular object geometry allowed simple calculations of the object's center of gravity, but other object shapes could require more complex calculations. We opted for unimanual manipulation from the robot and the human, which simplified the computations needed, but sacrificed some balance and stability during manipulation. And finally, this system designated the human to always be the "leader," however, those roles might need change dynamically, depending on the task.</p>
   <p></p>
 
-  <!-- <div class="blog-photos">
+  <div class="blog-photos">
     <figure class="blog-item">
-      <img class="blog-pic" src="/projects/__.png">
+      <img class="blog-pic" src="/projects/humanrobotcollab2.png">
     </figure>
     <figure class="blog-item">
-      <img class="blog-pic" src="/projects__.png">
+      <img class="blog-pic" src="/projects/humanrobotcollab1.png">
     </figure>
-  </div> -->
+  </div>
 
   <button class="custom-button" onclick="goBack()">Back</button>
   <p></p>

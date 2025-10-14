@@ -10,18 +10,30 @@ function goBack() {
 </script>
 
 <div class="page-title">
-  <h1>Windy Quadcopter Flight</h1>
+  <h1>Windy Quadcopter Flights</h1>
 </div>
 
 <div class="blurb">
   <button class="custom-button" onclick="goBack()">Back</button>
-  <p>As drone usage becomes more prevalent for both leisure and commercial applications, quadcopters require mobilty and robustness during flight in natural environments. One commonly faced disturbance in natural environments is wind, thus we designed a high-level model predictive controller to adapt and reject various wind models during flight trajectories. </p>
+
+  <h2><u>Background</u></h2>
+  <p>As drone usage becomes more prevalent for both leisure and commercial applications, quadcopters require mobilty and robustness during flight in natural environments.</p>
   <p></p>
 
+  <h2><u>Overview</u></h2>
+  <p>One commonly faced disturbance in natural environments is wind, thus we designed a high-level model predictive controller to adapt and reject various wind models during flight trajectories.</p>
+  <p></p>
+
+  <h2><u>Methods</u></h2>
   <p>In Python, we modeled the system dynamics as a state vector of positions and velocities and embedded contraints to ensure smooth translational and rotational flight speeds and thruster forces. We then defined a constrained finite time optimal control problem using a linear quadratic regulator and tracking a terminal reference state. Using a simple stabilizing controller determined by solving the discrete Algebraic Riccati equation, we finally designed a model predictive controller with guaranteed terminal set invariance and persistent feasibility.</p>
   <p></p>
+  
+  <h2><u>Skills</u></h2>
+  <p>Model Predictive Control, Controller Design, Python</p>
+  <p></p>
 
-  <p>Tested in simulation, our controller could successfully reach the terminal set in 5 seconds without disturbance. We further evaluated the robustness under three simulated wind conditions: a steady breeze (constant signal), a short gust (square wave), and a erratic wind condition (gaussian noise), showing that these disturbances could be rejected during flight times of 5 seconds. </p>
+  <h2><u>Reflection</u></h2>
+  <p>This project was completed over 15 weeks in an Experiential Advanced Control Design course, focused on Model Predictive Control. Tested in simulation, our controller could successfully reach the terminal set in 5 seconds without disturbance. We further evaluated the robustness under three simulated wind conditions: a steady breeze (constant signal), a short gust (square wave), and a erratic wind condition (gaussian noise), showing that these disturbances could be rejected during flight times of 5 seconds. Future work could investigate the implementation of linear quadratic integrator control to potentailly shorten the control horizon or add low-level control for better stability and test in physical environments.</p>
   <p></p>
   
   <div class="blog-photos">

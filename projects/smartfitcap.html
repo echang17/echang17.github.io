@@ -15,13 +15,25 @@ function goBack() {
 
 <div class="blurb">
   <button class="custom-button" onclick="goBack()">Back</button>
+
+  <h2><u>Background</u></h2>
   <p>Over 30% of football players have sustained at least one concussion prior to the end of high school and over one fifth of concussions sustained are recurrent. Protection and safety are extremely important for youth athletes, whose brains are still developing and especially suseptible to harm. BU recently published a new <a href="http://jamanetwork.com/journals/jama/article-abstract/2645104" target="_blank">study</a> on Chronic Traumatic Encephalophy (CTE), reporting that 99% percent of NFL players whose brains were donated to their research had CTE.</p>
   <p></p>
 
+  <h2><u>Overview</u></h2>
   <p>We sought to develop a solution to reduce the incidence of concussions in the young athletes who play football. Through research on current solutions and conducting interviews with football players, coaches, and athletic trainers, we created a device to be used during the helmet fitting process, rather than additional equipment to be worn on-field. The Smart-Fit Cap would be used to ensure proper fit in five main regions of the head by indicating to the athletic trainer or coach which areas are sufficiently snug and which are too loose.</p>
   <p></p>
+
+  <h2><u>Methods</u></h2>
+  <p>The device was built on Arduino using Force Sensitive Resistor (FSR) technology and LED feedback. FSRs were arranged across five regions on a thin cloth head cap to measure contact force between the head and the helmet, which was then worn on top during the fitting process. Regions of the helmet that were insufficiently snug (low contact force with cap) could then be adjusted via inflatable air pump for certain models, additional foam padding, or by selecting a smaller helmet size.</p>
+  <p></p>
   
-  <p>The device was built on Arduino using Force Sensitive Resistor (FSR) technology and LED feedback. The sensors are located in the primary fitting regions and the helmet is worn on top. Regions that are insufficiently snug can be adjusted via inflatable air pump for certain models, added foam padding, or by selecting a smaller helmet size.</p>
+  <h2><u>Skills</u></h2>
+  <p>Arduino, Interviews, Force Sensors</p>
+  <p></p>
+
+  <h2><u>Reflection</u></h2>
+  <p>Within the 15-week Device and Diagnostic Design course, we developed a prototype that could sense and indicate when a football helmet had the necessary contact force to fit appropriately across 3 regions on the front, 1 region on the top, and 1 region on the back of the head. We performed an initial validation of the technical feasibility of the prototype with a helmet, however, additional validation with varying helmet models and individuals with different head sizes would improve the confidence of the technology in the field. This system was programmed such that LEDs would illuminate when the minimum force threshold for good fit was reached, but future works should also consider an upper threshold that indicates the helmet is too tight. Validating this threshold through testing with an expert, such as an athletic trainer, could also improve the applicability of this prototype.</p>
   <p></p>
 
   <div class="blog-photos">

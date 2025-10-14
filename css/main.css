@@ -239,6 +239,15 @@ ul.posts li {
 
 .blog-item {
     margin: 20px;
+    flex: 1 1 300px; /* images will shrink and grow but have a minimum width */
+    max-width: 1000px; /* optional: keeps them from growing too large */
+}
+
+.blog-pic {
+  width: 100%;
+  height: auto; /* maintains the aspect ratio */
+  display: block; /* removes unwanted bottom whitespace */
+  border-radius: 8px; /* optional: gives a nice rounded corner look */
 }
 
 /* Centered text */
